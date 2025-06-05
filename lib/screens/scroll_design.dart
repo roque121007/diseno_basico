@@ -58,7 +58,7 @@ class MainContent extends StatelessWidget {
           Text("11°", style: textStyle),
           Text("Miercoles", style: textStyle),
           Expanded(child: Container()),
-          Icon(Icons.arrow_downward, color: Colors.white, size: 150),
+          Icon(Icons.keyboard_arrow_down, color: Colors.white, size: 150),
         ],
       ),
     );
@@ -71,7 +71,7 @@ class Background extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Color.fromRGBO(255, 69, 190, 214),
+      color: Color.fromARGB(255, 69, 190, 214),
       height: double.infinity,
       alignment: Alignment.topCenter,
       child: Image(image: AssetImage('assets/scroll-1.png')),
