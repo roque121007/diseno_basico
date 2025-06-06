@@ -16,6 +16,7 @@ class MainApp extends StatelessWidget {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData.dark(),
       title: 'Diseños App',
       initialRoute: "home_screen",
       routes: {

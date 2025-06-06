@@ -23,7 +23,7 @@ class PageTitle extends StatelessWidget {
               ),
               Text(
                 "Clasify this transaction into a particular category",
-                style: TextStyle(fontSize: 16, color: Colors.white),
+                style: TextStyle(fontSize: 18, color: Colors.white),
               ),
             ],
           ),
